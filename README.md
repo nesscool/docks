@@ -2,7 +2,9 @@
 Dockerfiles to build images for dockerhub/nesscool
 
 basecpp is an image that provides the essential components for building a cpp project
-gcc, nvim
+gcc, nvim, cmake, git
+
+The purpose of the basecpp image is to be able to use docker to get a consistent dev env from anywhere.
 
 The git/nvim/vim settings of current user will be added to the running container.
 
