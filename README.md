@@ -11,3 +11,5 @@ which is a vanilla cpp project that has a script called 'code'.
 
 When running 'code' from a shell, the basecpp docker container will be spun up and
 the current working directory will become the project and working directory of the container.
+
+alpine is a sandbox env where you can build the latest alpine image and step into a running container with './code'.
